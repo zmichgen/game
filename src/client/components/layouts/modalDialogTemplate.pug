@@ -1,0 +1,9 @@
+div(class="modal-dialog modal-dialog-centered modal-lg warning " role="document")
+  div(class="modal-content message-warning")
+    div(class="modal-header")
+      h5(class="modal-title") !{ title }     
+    div(class="modal-body")
+      block body     
+    div(class="modal-footer" id='modal-footer')
+      button(type="button" class="btn btn-outline-secondary" data-dismiss="modal" id="hide") !{ btnName }
+

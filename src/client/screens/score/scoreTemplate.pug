@@ -1,0 +1,16 @@
+.root
+  div(class='score')
+    h1 Таблица Рекордов
+    table(class="table table-striped")
+      tr
+        th(scope="row") Место
+        th(scope="row") Имя игрока
+        th(scope="row") Очки
+        th(scope="row") Уровень
+      each item, index in items
+        tr
+          td !{index + 1}
+          td !{item.name}
+          td !{item.score}
+          td !{item.level}
+

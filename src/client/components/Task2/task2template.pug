@@ -1,0 +1,7 @@
+extends ../layouts/modalDialogTemplate.pug
+block body
+  #task-area  
+    div(class="game-container" id="game-word")
+      each item, index in gameWord
+        div(id=`letter-${index}-${item}` class="letter ui-state-default") !{ item }  
+    button(type="button" class="btn btn-success" id="chekIt") Проверить

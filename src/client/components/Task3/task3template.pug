@@ -1,0 +1,8 @@
+extends ../layouts/modalDialogTemplate.pug
+block body
+  #task-area  
+    p(class="translate") !{englishWord}
+    div(class="input-group mb-3")
+      input(type="text" class="form-control" placeholder="Введи перевод" id="user-answer")
+      div(class="input-group-append")
+        button(type="button" class="btn btn-success" id="chekIt") Проверить

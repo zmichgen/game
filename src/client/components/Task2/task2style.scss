@@ -1,0 +1,12 @@
+.game-container {
+  height: 100px;
+  .letter {
+    display: inline-block;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    float: left;
+    background: rgb(253, 93, 1);
+    padding: 0 10px;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 10px;
+  }
+}

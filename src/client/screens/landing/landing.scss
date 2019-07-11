@@ -1,0 +1,138 @@
+.landing-page {  
+  .hero {  
+    position: relative;
+    background-image: url('./images/sany.jpg');
+    background-size: 100% auto;  
+    background-repeat: no-repeat;
+
+    h1 {
+      font-family: 'Mirabella', Arial, Helvetica, sans-serif;    
+      text-align: center;
+      padding: 5px 0;
+      font-size: 3vw;
+      color: rgb(255, 255, 255);    
+      text-shadow: 4px 4px 8px rgb(0, 0, 0);
+    }
+
+    .text {
+      fill: white;    
+      font-family: 'Mirabella', Arial, Helvetica, sans-serif;    
+      text-align: center;
+      padding: 5px 0;
+      font-size: 2vw;
+      color: rgb(179, 199, 188);    
+      text-shadow: 2px 2px 20px rgb(0, 0, 0);
+    }
+    .btn {
+      position: absolute;
+      top: calc(50% + 50px);
+      left: calc(40%);
+      font-size: 2vw;
+      font-family: 'Mirabella', Arial, Helvetica, sans-serif;
+      box-shadow: 2px 2px 15px gray;
+    }
+  } 
+
+  .about {  
+    position: relative;
+    padding-top: 50px;
+    display: block;
+    background-image: url('./images/footprints-fon.jpg');  
+    background-size: 100% auto;  
+    background-repeat: no-repeat;
+    img {
+      display: inline-block;
+      filter: drop-shadow(15px 15px 15px #222);
+      width: 35vw;
+    }
+    .text {
+      display: inline-block;
+
+      h2 {
+        font-family: 'Mirabella', Arial, Helvetica, sans-serif;   
+        font-size: 2vw; 
+        text-align: center;
+        color: rgb(41, 41, 46);
+      }
+    }
+    .btn {
+      position: absolute;
+      top: calc(50% + 50px);
+      left: calc(50%);
+      font-size: 2vw;
+      font-family: 'Mirabella', Arial, Helvetica, sans-serif;
+      box-shadow: 2px 2px 15px gray;
+    }
+  }
+  .rules {
+    position: relative;
+    background-image: url('./images/sneg.jpg');  
+    background-size: 100% auto;  
+    background-repeat: no-repeat;
+    height: 60vw;
+    .slides { 
+      position: absolute;
+      top: 10vw;
+      left: 10vw;
+      width: 50vw;
+      height: auto;
+
+      
+
+      h5 {
+        font-family: 'Mirabella',Arial, Helvetica, sans-serif;
+        font-size: 1.5vw;
+        color: black;
+        background: white;
+        opacity: 0.6;
+        padding: 10px;
+        border-radius: 20px;
+      }
+
+      p {
+        font-family: 'Mirabella',Arial, Helvetica, sans-serif;
+        font-size: 1.3vw;
+        color: black;
+        background: white;
+        opacity: 0.8;
+      }
+
+      img {
+        width: 50vw;
+      }
+      
+
+    }
+    .btn {
+      position: absolute;
+      top: 40vw;
+      left: 40vw;
+      font-size: 2vw;
+      font-family: 'Mirabella', Arial, Helvetica, sans-serif;
+      box-shadow: 2px 2px 15px gray;
+    }
+    
+  }
+  footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(34, 29, 29);
+    color: rgb(189, 189, 189);
+    
+    div {
+      padding: 20px;
+      
+      p {
+        margin: 0;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+        font-size: 1vw;
+      }
+    }
+    
+    
+  }
+}
+
+

@@ -1,0 +1,113 @@
+
+
+$sloop: 2.5s;
+$damage: 2s;
+$shot: 2s;
+.santa {
+  
+  position: relative;
+ 
+  img {
+    width: 400px;
+    position: absolute; 
+    filter: drop-shadow(8px 8px 5px #222);  
+     perspective: 200px; 
+  }
+
+  .s-body-breath{
+    animation: s-body-breath $sloop infinite;
+  }
+  .s-head-breath{
+    animation: s-head-breath $sloop infinite;
+  }
+  .s-rightArm-breath{
+    animation: s-rightArm-breath $sloop infinite;
+  }
+  .s-leftArm-breath{
+    animation: s-leftArm-breath $sloop infinite;
+  }
+
+  .s-head-break {
+    transform-origin: 45% 35%;
+    animation: s-headbreak $damage;
+  }
+  
+  .s-rightArm-shot {
+    transform-origin: 40% 33%;
+    animation: s-rightarmshot $shot;
+  }
+  
+}
+
+@keyframes s-body-breath{
+  0% { 
+    transform:  scale(1, 1);
+  }
+  50% {
+    transform: scale(1.06, 1.06);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes s-head-breath{
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes s-rightArm-breath{
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-3px, -7px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes s-leftArm-breath{
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(3px, -7px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes s-headbreak{
+  0% {
+    transform: rotateZ(0deg);
+  }
+  
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+
+@keyframes s-rightarmshot{
+  0% {
+    transform: rotate(0);
+  }
+  90% {
+    transform: rotate(-120deg);
+  }  
+  100% {
+    transform: rotate(0);
+  }
+}
+
+
+

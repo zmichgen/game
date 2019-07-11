@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {        
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,                
+        "outDir": "./dist/",        
+        "module": "es6",
+        "target": "es5",
+        "jsx": "react",
+        "allowJs": true,
+    },
+    "include": [
+        "src/**/*", "favicons-webpack-plugin.d.ts",
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+    ]
+}

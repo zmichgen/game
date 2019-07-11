@@ -1,0 +1,27 @@
+.root{
+  
+  .score { 
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
+
+    h1 {
+      font-family: 'Mirabella',Arial, Helvetica, sans-serif;
+      font-size: 3vw;
+      background: silver;
+      color: rgb(16, 41, 13);
+      padding: 10px;
+      text-align: center;
+    }
+
+    table {
+      font-family: 'Mirabella',Arial, Helvetica, sans-serif;
+      font-size: 2vw;
+      margin: 10px auto;
+
+      td{
+        text-align: center;
+      }
+    }
+  }
+}

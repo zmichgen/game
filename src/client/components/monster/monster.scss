@@ -1,0 +1,222 @@
+
+
+$loop: 3s;
+$shot: 2s;
+
+.monster {
+  position: relative;
+
+  img {
+    position: absolute;
+    width: 450px;
+    filter: drop-shadow(8px 8px 5px #222); 
+  }
+  .m-body-breath{
+    animation: m-body-breath $loop infinite;
+  }
+  .m-head-breath{
+    animation: m-head-breath $loop infinite;
+  }
+  .m-rightArm-breath{
+    animation: m-rightArm-breath $loop infinite;
+  }
+  .m-leftArm-breath{
+    animation: m-leftArm-breath $loop infinite;
+  }
+  .m-weapon-breath {
+    
+    animation: m-weapon-breath $loop infinite;
+  } 
+
+
+  .m-rightLeg-shot {
+    animation: m-rightLeg-shot $shot;    
+  }
+  .m-rightArm-shot {
+    transform-origin: 45% 35%;
+    animation: m-rightArm-shot $shot;
+  }
+
+  .m-leftArm-shot {
+    transform-origin: 65% 30%;
+    animation: m-leftArm-shot $shot;
+  }
+
+  .m-weapon-shot {
+    transform-origin: 65% 30%;
+    animation: m-weapon-shot $shot;
+  }
+  .m-head-break {
+    transform-origin: 45% 35%;
+    animation: m-headbreak 2s;
+  }
+  .m-leftArm-break {
+    animation: m-leftarmbreak 2s;
+  }
+
+  .m-weapon-break {
+    animation: m-weapon 2s;
+  }
+
+  .m-rightArm-break {
+    animation: m-rightarmbreak 2s;
+  }
+ 
+}
+
+@keyframes m-leftarmbreak{
+  0% {
+    transform: translate(0px, 0px) ;
+  }
+  50% {
+    transform: translate(150px, -150px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes m-rightarmbreak{
+  0% {
+    transform: translate(0px, 0px) ;
+  }
+  50% {
+    transform: translate(-150px, -150px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes m-weapon{
+  0% {
+    transform: translate(0px, 0px) ;
+  }
+  50% {
+    transform: translate(150px, -150px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes m-headbreak{
+  0% {
+    transform: rotateZ(0deg);
+  }
+  
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes m-body-breath{
+  0% { 
+    transform:  scale(1, 1);
+  }
+  50% {
+    transform: scale(1.06, 1.06);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes m-head-breath{
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes m-rightArm-breath{
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(3px, -7px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes m-leftArm-breath{
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(3px, -7px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes m-weapon-breath{
+  0% {
+    transform: translate(0, 0);
+    
+  }
+  50% {
+    transform: translate(3px, -7px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes m-rightLeg-shot{
+  0% {
+    transform: translate(0, 0) rotateY(0deg);
+    
+  }
+  95% {
+    transform: translate(3px, -10px) rotate(30deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+@keyframes m-rightArm-shot{
+  0% {
+    transform: translate(0, 0) rotateY(0deg);
+  }
+  95% {
+    transform: translate(3px, -7px) rotate(80deg);
+  }
+  100% {
+    transform: translate(0, 0) rotateY(0deg);
+  }
+}
+
+@keyframes m-leftArm-shot{
+  0% {
+    transform: translate(0, 0) rotateY(0deg);
+  }
+  95% {
+    transform: translate(3px, -7px) rotate(60deg);
+  }
+  100% {
+    transform: translate(0, 0) rotateY(0deg);
+  }
+}
+
+@keyframes m-weapon-shot{
+  0% {
+    transform: translate(0, 0) rotateY(0deg);
+    
+  }
+  95% {
+    transform: translate(3px, -7px) rotate(70deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}

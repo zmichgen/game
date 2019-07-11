@@ -1,0 +1,9 @@
+extends ../layouts/modalDialogTemplate.pug
+block body
+  #btn-area
+    each item, index in btns
+      button(id=`magic-btn-${index}` type="button" class=`btn btn-lg btn-block btn-outline-${item.color}`) !{item.name}
+ 
+
+
+

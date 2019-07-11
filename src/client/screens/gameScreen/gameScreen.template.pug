@@ -1,0 +1,26 @@
+div(class=" game col col-sm-12 ")
+  div(class="row alert alert-success" role="alert")  
+    h1 !{greeting}
+  div(class="row")
+    button(class="col col-sm-4" type="button" class="btn btn-outline-success" id="go") В бой!
+    button(class="col col-sm-4" type="button" class="btn btn-outline-danger" id="exit") Я боюсь...  
+  div(class="row wrapper")
+    div(id="user-hp" class="user-progress")
+    div(id="monster-hp" class="monster-progress") 
+    img(id="se-santa" class="specEffectSanta")
+    img(id="se-monster" class="specEffectMonster")    
+    div(class="col col-sm-9") 
+      div(class="santa-sprite" id="santa")         
+      div(class="monster-sprite" id="monster")   
+    div(class="col col-sm-3")
+      img(class="gametree" src=require(`../landing/images/tree${level}.png`) width="400" alt="tree")                  
+div(id="chooseMagic" class="modal fade" tabindex="-1" role="dialog" data-backdrop='static')
+div(id="task-window" class="modal fade" tabindex="-1" role="dialog" data-backdrop='static')
+div(id="msgBox" class="modal fade" tabindex="-1" role="dialog" data-backdrop='static')        
+           
+              
+                 
+    
+    
+  
+  

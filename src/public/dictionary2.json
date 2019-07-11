@@ -1,0 +1,190 @@
+ [
+  {
+    "word":"cat",
+    "translate": [
+      "кот", "кошка", "котик", "кошечка", "котэ"
+    ]
+  },
+  {
+    "word":"dog",
+    "translate": [
+      "собака", "пес", "пёс", "собачка"
+    ]
+  },
+  {
+    "word":"leg",
+    "translate": [
+      "нога", "ножка", "голень"
+    ]
+  },
+  {
+    "word":"arm",
+    "translate": [
+      "рука", "рычаг", "стрела", "подлокотник"
+    ]
+  },
+  {
+    "word":"glue",
+    "translate": [
+      "клей", "клеить", "приклеивать"
+    ]
+  },
+  {
+    "word":"word",
+    "translate": [
+      "слово", "речь", "текст"
+    ]
+  },
+  {
+    "word":"hand",
+    "translate": [
+      "рука", "стрелка", "ладонь"
+    ]
+  },
+  {
+    "word": "home",
+    "translate": [
+      "дом"
+    ]
+  },
+  {
+    "word": "flat",
+    "translate": [
+      "квартира"
+    ]
+  },
+  {
+    "word":"world",
+    "translate": [
+      "мир", "вселенная", "царство"
+    ]
+  },
+  {
+    "word":"prime",
+    "translate": [
+      "основной", "главный", "расцвет"
+    ]
+  },
+  {
+    "word":"honor",
+    "translate": [
+      "честь", "слава", "почет", "уважение"
+    ]
+  },
+  {
+    "word":"color",
+    "translate": [
+      "цвет"
+    ]
+  },
+  {
+    "word":"table",
+    "translate": [
+      "стол"
+    ]
+  },
+  {
+    "word":"damage",
+    "translate": [
+      "урон", "вред", "авария", "ущерб", "повреждение"
+    ]
+  },
+  {
+    "word":"flower",
+    "translate": [
+      "цветок"
+    ]
+  },
+  {
+    "word":"people",
+    "translate": [
+      "люди", "народ", "жители"
+    ]
+  },
+  {
+    "word":"teacher",
+    "translate": [
+      "учитель", "преподаватель"
+    ]
+  },
+  {
+    "word":"respect",
+    "translate": [
+      "уважение", "почет", "считать", "уважать"
+    ]
+  },
+  {
+    "word":"opinion",
+    "translate": [
+      "мнение", "взгляд", "убеждение"
+    ]
+  },
+  {
+    "word":"outlook",
+    "translate": [
+      "вид", "кругозор", "перспектива"
+    ]
+  },
+  {
+    "word":"plate",
+    "translate": [
+      "тарелка", "миска"
+    ]
+  },
+  {
+    "word":"spoon",
+    "translate": [
+      "ложка"
+    ]
+  },
+  {
+    "word":"fork",
+    "translate": [
+      "вилка"
+    ]
+  },
+  {
+    "word":"moon",
+    "translate": [
+      "луна"
+    ]
+  },
+  {
+    "word":"sun",
+    "translate": [
+      "солнце"
+    ]
+  },
+  {
+    "word":"tea",
+    "translate": [
+      "чай"
+    ]
+  },
+  {
+    "word":"cup",
+    "translate": [
+      "чашка"
+    ]
+  },
+  {
+    "word":"milk",
+    "translate": [
+      "молоко"
+    ]
+  },
+  {
+    "word":"face",
+    "translate": [
+      "лицо"
+    ]
+  },
+  {
+    "word":"head",
+    "translate": [
+      "голова"
+    ]
+  }
+  
+]
+

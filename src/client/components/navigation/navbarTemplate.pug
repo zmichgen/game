@@ -1,0 +1,14 @@
+.gameNavBar
+  nav(class="navbar navbar-expand-md navbar-light bg-light" id="gameNavBar")
+    img(class="navbar-brand" src=require('./images/fav.png') width = '40' alt="logo")
+    button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+      span(class="navbar-toggler-icon")
+    div(class="collapse navbar-collapse" id="navbarSupportedContent")
+      ul(class="navbar-nav mr-auto")
+        each item, index in items
+          li(class="nav-item")
+            button(class=" menubtn btn btn-outline-success" type="button" id=`page-${index}`) !{item}
+      span(class='navbar-text ' id='userName')               
+      img(class="tree" src=require('./images/tree.png') alt="tree" width="40")
+             
+      

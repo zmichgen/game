@@ -1,0 +1,136 @@
+
+
+
+#task-area {
+  .game-container {
+    height: 100px;
+  
+     .letter {
+      display: inline-block;
+      font-family: 'Lato',Arial, Helvetica, sans-serif;
+      float: left;
+      background: rgb(253, 93, 1);
+      padding: 0 10px;
+      box-shadow: 2px 2px 10px gray;
+      border-radius: 10px;
+      min-width: 50px;
+      min-height: 50px;
+  
+      p {
+        display: none;
+        padding: 0;
+        margin: 0;       
+      }
+      
+    }
+  }
+  .balloon-game {
+    cursor: url('./images/aimNew.cur'), pointer;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background: url('./images/gory.jpg');
+    background-size: cover;
+
+    h2 {
+      font-size: 3vw;
+      text-align: center;
+      padding-top: 10%;
+      color: red;
+    }
+
+    img {
+      width: 100%;
+      left: 0;
+      top: 0;
+      position: absolute;
+      -webkit-user-select: none; 
+      -moz-user-select: none;   
+      -ms-user-select: none;
+      user-select: none;    
+      pointer-events: none;
+    }
+    @keyframes animCloud {
+      from {
+          transform: translateX(100%)
+      }
+      to {
+          transform: translateX(-100%)
+      }
+    }
+    
+    .cloud1 {
+      animation: animCloud 20s infinite linear;
+    }
+    .cloud2 {
+      animation: animCloud 40s infinite linear;
+
+    }
+    .cloud3 {
+      animation: animCloud 60s infinite linear
+    }
+    .cloud4 {
+      animation: animCloud 80s infinite linear
+    }
+
+    @keyframes animBallX {
+      0% {
+        transform: translateY(400%) translateX(0)
+      }
+      50% {
+        transform: translateY(175%) translateX(100px) 
+      }
+      100% {
+        transform:  translateY(-150%) translateX(-100px) 
+      }
+      
+    }
+    .fly {
+      animation: animBallX 5s linear;
+    }
+
+    .balloon {
+      width: 90px;
+      height: 110px;
+      border-radius: 0;
+      border-radius: 80% 80% 80% 80%;
+      margin: 0 auto;
+      position: absolute;
+      padding: 10px;
+      left: 10px;
+      &:before {
+        position: absolute;
+        bottom: -15px;
+        left: 35px;
+        content:"▲";
+        font-size: 0.6em;
+      
+      }
+      span {
+        font-size: 1.8em;
+        color: white;
+        position: relative;
+        top: 0;
+        left: 20%;
+      }
+    }
+
+  }
+
+  .btn {
+    font-size: 1.5vw;
+  } 
+
+  .balloon-burst {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('./images/bigBang.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+
+}
+

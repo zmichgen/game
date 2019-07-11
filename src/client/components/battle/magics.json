@@ -1,0 +1,28 @@
+{
+  "types": [
+    {
+      "name":"Ледяная Глыба",
+      "color":"primary"
+    },
+    {
+      "name":"Зеленый Змий",
+      "color":"success"
+    },
+    {
+      "name":"Огненный Дракон",
+      "color":"danger"
+    },
+    {
+      "name":"Буря в пустыне",
+      "color":"warning"
+    },
+    {
+      "name":"Смертельный Град",
+      "color":"info"
+    },
+    {
+      "name":"Черный плащ",
+      "color":"dark"
+    }    
+  ]
+}

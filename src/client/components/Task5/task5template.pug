@@ -1,0 +1,15 @@
+extends ../layouts/modal2Template.pug
+block body
+  #task-area
+    div(class="balloon-game" id="game-area")
+      img(src=require('./images/cloud-01.png') alt='' class='cloud1')
+      img(src=require('./images/cloud-02.png') alt='' class='cloud2')
+      img(src=require('./images/cloud-03.png') alt='' class='cloud3')
+      img(src=require('./images/cloud-04.png') alt='' class='cloud4')
+    div(class="game-container" id="game-word")
+      each item, index in gameWord
+        div(class="letter ui-state-default") 
+          p(id=`letter-${index}` class='nonvisible') !{ item }  
+    button(type="button" class="btn btn-info" id="playIt") Произнести
+    button(type="button" class="btn btn-success" id="start") Старт
+

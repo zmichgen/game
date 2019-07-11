@@ -1,0 +1,30 @@
+.fontree {
+  background-color: white;
+  background-image: url(../landing/images/tree0.png);
+  background-size: 700px auto;
+  background-repeat: no-repeat;  
+  padding: 10px;
+  margin: 20px;  
+  box-shadow: 1px 1px 10px;
+  border-radius: 10px;
+
+  h2, label {
+    font-family: 'Mirabella',Arial, Helvetica, sans-serif;
+  }
+
+  h2 {
+    margin-bottom: 15px;    
+  }
+
+  label {
+    font-size: 20px;    
+  }
+}
+
+.infotext-reg {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Mirabella', Arial, Helvetica, sans-serif;
+}
+
