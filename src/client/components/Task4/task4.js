@@ -39,12 +39,8 @@ export default class Task4 {
     }
     if (e.target.id === 'playIt') {
       const synth = window.speechSynthesis;
-      const message = new SpeechSynthesisUtterance();
-      message.lang = 'en-US';
-      message.text = rightAnswer;
-      message.pitch = 0.8;
+      const message = new SpeechSynthesisUtterance(rightAnswer);
       message.rate = 0.6;
-      message.volume = 150;
       synth.speak(message);
     }
   }

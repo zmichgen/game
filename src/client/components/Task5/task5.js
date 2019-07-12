@@ -214,12 +214,8 @@ function randomIndex(toNumber) {
 
 function playIt(word) {
   const synth = window.speechSynthesis;
-  const message = new SpeechSynthesisUtterance();
-  message.lang = 'en-US';
-  message.text = word;
-  message.pitch = 0.8;
+  const message = new SpeechSynthesisUtterance(word);
   message.rate = 0.6;
-  message.volume = 150;
   synth.speak(message);
 }
 
